@@ -21,5 +21,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-@hourly find /home/pi/gcode_files -mtime +14 -delete
-* * * * * mkdir -p /home/pi/gcode_files
+@hourly find /home/rudis1261/gcode_files -mtime +14 -delete
+* * * * * mkdir -p /home/rudis1261/gcode_files
