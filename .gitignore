@@ -17,3 +17,5 @@ kiauh/
 .viminfo
 .wget-hsts
 kiauh-backups/
+printer_data/database/
+printer_data/logs/
