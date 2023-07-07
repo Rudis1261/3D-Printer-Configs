@@ -1,7 +1,7 @@
 [server]
 host = 0.0.0.0
 port = 7125
-klippy_uds_address = /tmp/klippy_uds
+klippy_uds_address = /home/rudis1261/printer_data/comms/klippy.sock
 
 [file_manager]
 enable_object_processing = True
@@ -29,9 +29,4 @@ cors_domains =
 type = web
 repo = meteyou/mainsail
 path = ~/mainsail
-
-[update_manager client fluidd]
-type = web
-repo = cadriel/fluidd
-path = ~/fluidd
 
